@@ -1,42 +1,33 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     display: flex;
+    
 }
 
-header {
-    height: 33vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #D7DDDA;
-}
-
-footer{
-    height: 33vh;
-    background-color: #049296;
-}
-
-.right {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.splash {
-    max-height: 100vh;
-}
-
-.formset {
-    border: none;
-    height: 34vh;
-}
-
-.signup {
-    display: flex;
-    flex-direction: column;
-}
-
-.signup-form {
-    display: flex;
-    align-items: center;
-}
+.card-container {
+    position: relative;
+    width: 100%
+  }
+  .card-image {
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+  }
+  .card-body {
+    position: absolute;
+    width: 100vw;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: roboto;
+  }
+  .card-heading {
+    position: absolute;
+  }
