@@ -48,7 +48,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 60vw;
+  width: 60vw;
   margin-right: 100px;
   margin-left: 6vw;
   position: relative;
@@ -164,4 +164,8 @@ button {
 button:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+input:invalid {
+  border-color: red;
 }
