@@ -170,7 +170,7 @@ input:invalid {
   border-color: red;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1600px) {
   .formset {
     display: flex;
     flex-direction: column;
@@ -184,7 +184,10 @@ input:invalid {
     margin-left: 1vw;
   }
    
+  .sign-up-form {
+    padding-top: 10px;
+  }
   .form-row {
-    margin-left: 4vw;
+    margin-left: 10vw;
   }
 }
